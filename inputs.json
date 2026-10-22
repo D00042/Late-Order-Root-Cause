@@ -1,0 +1,16 @@
+{
+  "period": "Synthetic period P9",
+  "currency": "EUR",
+  "note": "Invented figures shaped like a small shared-services finance entity. Not real company data.",
+  "inputs": {
+    "revenue": 2433000,
+    "revenue_prior": 1921000,
+    "ebit": -36500,
+    "retained_profit": -83000,
+    "cash": 380000,
+    "current_assets": 975000,
+    "current_liabilities": 1270000,
+    "total_assets": 1400000,
+    "equity": -240000
+  }
+}
