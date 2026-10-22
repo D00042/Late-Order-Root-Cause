@@ -142,7 +142,7 @@ def main():
     sentences = re.split(r"(?<=[.!?])\s+(?=[A-Z])", text)
     rows = check(sentences, kpis)
     (ROOT / "results.json").write_text(json.dumps(rows, indent=2, ensure_ascii=False))
-    (ROOT / "report.html").write_text(render(meta, kpis, rows))
+    (ROOT / "index.html").write_text(render(meta, kpis, rows))
     for r in rows:
         tag = {"verified": "OK  ", "contradicted": "FAIL", "unverifiable": "SKIP"}[r["status"]]
         extra = f" (said {r['claimed']}, data {r['actual']})" if r["status"] == "contradicted" else ""
