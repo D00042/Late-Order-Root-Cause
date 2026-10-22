@@ -7,7 +7,7 @@ I built an AI commentary feature for a finance reporting platform. Reviewing its
 ## Run it
 
 ```bash
-python validate.py        # prints a verdict per sentence, writes report.html and results.json
+python validate.py        # prints a verdict per sentence, writes index.html and results.json
 ```
 
 Exit code is 1 when a figure is contradicted, so it can gate a CI job. No dependencies beyond Python 3.8+.
