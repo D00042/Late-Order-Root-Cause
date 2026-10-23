@@ -1,0 +1,86 @@
+{
+  "overall": {
+    "n": 16261,
+    "rate": 0.21782178217821782
+  },
+  "spread": [
+    {
+      "dim": "Promised lead time",
+      "segments": 4,
+      "lo": "29+ days (0.0%)",
+      "hi": "0-7 days (62.2%)",
+      "pp": 62.196121278339255
+    },
+    {
+      "dim": "Month ordered",
+      "segments": 12,
+      "lo": "04 (18.7%)",
+      "hi": "07 (23.7%)",
+      "pp": 4.942269722722981
+    },
+    {
+      "dim": "Ship-to country",
+      "segments": 21,
+      "lo": "Finland (19.2%)",
+      "hi": "Portugal (23.5%)",
+      "pp": 4.288219352781764
+    },
+    {
+      "dim": "Employee",
+      "segments": 9,
+      "lo": "2 (20.2%)",
+      "hi": "7 (23.2%)",
+      "pp": 2.9314223751349093
+    },
+    {
+      "dim": "Weekday ordered",
+      "segments": 7,
+      "lo": "Tue (20.6%)",
+      "hi": "Thu (23.2%)",
+      "pp": 2.6125429553264605
+    },
+    {
+      "dim": "Carrier",
+      "segments": 3,
+      "lo": "3 (21.7%)",
+      "hi": "1 (22.0%)",
+      "pp": 0.3351821600685395
+    }
+  ],
+  "whatif": [
+    [
+      3,
+      0.2048834248888344
+    ],
+    [
+      5,
+      0.1898408820408943
+    ],
+    [
+      7,
+      0.17018881100958272
+    ],
+    [
+      10,
+      0.1381390147688496
+    ],
+    [
+      14,
+      0.09811411061263375
+    ],
+    [
+      21,
+      0.035566635263736227
+    ]
+  ],
+  "quality": {
+    "orders": 16282,
+    "order_lines": 609283,
+    "orphan_customers": 0,
+    "orphan_lines": 0,
+    "shipped_before_ordered": 0,
+    "required_before_ordered": 0,
+    "not_yet_shipped": 21,
+    "mixed_date_formats": 15452
+  }
+}
